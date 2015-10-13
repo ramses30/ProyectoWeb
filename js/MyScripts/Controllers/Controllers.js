@@ -1,4 +1,4 @@
 angular.module('MainModule')
-.controller('MainController', ['$scope', function($scope){
+.controller('MainController', function($scope){
 	
-}])
+})

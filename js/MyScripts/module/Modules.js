@@ -5,6 +5,10 @@ angular.module('MainModule', ['ngRoute'])
 			controller: "MainController",
 			templateUrl: "views/home.html"
 		})
+		.when('/personas',{
+			controller: "PersonasController",
+			templateUrl: "views/Personas.html"
+		})
 		.otherwise({
             redirectTo: '/'
         });
